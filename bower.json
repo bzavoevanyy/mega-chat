@@ -1,0 +1,20 @@
+{
+  "name": "mega-chat",
+  "authors": [
+    "Bogdan Zavoevanyy <bzavoevanyy@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

@@ -1,0 +1,59 @@
+.wrapper {
+    position: relative;
+}
+
+#messages {
+    height: 600px;
+    overflow: auto;
+}
+
+#messageInput {
+    width: 500px;
+}
+
+.date {
+    font-size: 10px;
+}
+
+#dropzonewrap {
+    position: relative;
+}
+
+.dropzone {
+    position: absolute;
+    width: 300px;
+    background-color: #ECE9E9;
+    padding: 20px;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.dropinner {
+    width: 100%;
+    height: 260px;
+    border: 1px dashed #2e2e2e;
+    text-align: center;
+    line-height: 260px;
+    margin-bottom: 10px;
+}
+
+.dropinner img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.btn-primary {
+
+}
+
+.media-object {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.media {
+    margin-bottom: 10px;
+}
