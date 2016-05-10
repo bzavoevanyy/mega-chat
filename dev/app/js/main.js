@@ -16,7 +16,6 @@ function register(name, login) {
             connection.onmessage = function (e) {
                 //пришло сообщение от сервер, надо его обработать
                 var res = JSON.parse(e.data);
-                console.log(res);
                 switch (res.op) {
                     case 'token':
                         localStorage.setItem('name', name);
@@ -49,7 +48,6 @@ function register(name, login) {
                         var newUser = document.createElement('div');
                         newUser.dataset.login = res.user.login;
                         newUser.innerHTML = usersTemplate({users: [{host:host,login: res.user.login, name: res.user.name, date:new Date().getTime()}]});
-                        console.log(newUser);
                         document.getElementById('users').appendChild(newUser);
                         break;
                     case 'user-out':
